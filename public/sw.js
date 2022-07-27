@@ -4,7 +4,7 @@ self.addEventListener("push", (e) => {
 	self.registration.showNotification(data.title,
 		{
 			body: data.body,
-			icon: "public\img\favicon-16x16.png",
+			icon: "https://github.com/Pulak2507/pwa-client1/blob/main/public/img/favicon-16x16.png",
 		});
 });
 
