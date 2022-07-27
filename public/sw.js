@@ -4,7 +4,7 @@ self.addEventListener("push", (e) => {
 	self.registration.showNotification(data.title,
 		{
 			body: data.body,
-			icon: "https://iocl.com/corporate-logo",
+			icon: "https://i.imgur.com/1cBscRa.png",
 		});
 });
 
