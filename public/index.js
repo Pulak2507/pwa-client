@@ -18,7 +18,7 @@ const send = async () => {
 	console.log("Push Registered...");
 
 
-	await fetch('https://ioclpushserver.herokuapp.com/subscribe', {
+	await fetch('https://internship7777.herokuapp.com/subscribe', {
 		method: "POST",
 		body: JSON.stringify(subscription),
 		headers: {
